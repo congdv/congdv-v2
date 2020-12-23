@@ -88,6 +88,11 @@ const Footer = () => {
           <div>Inspired by Brittany Chiang</div>
         </a>
       </StyledCredit>
+      <StyledCredit>
+        <a href="https://github.com/congdv/congdv-v2">
+          <div>Customized by me</div>
+        </a>
+      </StyledCredit>
     </StyledFooter>
   );
 };

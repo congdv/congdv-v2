@@ -7,6 +7,9 @@ const GlobalStyle = createGlobalStyle`
   ${Fonts};
 
   :root {
+    --dark-black: #282c35;
+    --light-black: #2b2c2f9c;
+
     --dark-navy: #020c1b;
     --navy: #0a192f;
     --light-navy: #172a45;
@@ -72,7 +75,7 @@ const GlobalStyle = createGlobalStyle`
     overflow-x: hidden;
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased;
-    background-color: var(--navy);
+    background-color: var(--dark-black);
     color: var(--slate);
     font-family: var(--font-sans);
     font-size: var(--fz-xl);
